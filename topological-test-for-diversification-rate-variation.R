@@ -32,4 +32,5 @@ disparity.multiPhylo <- function(dat, low_sp) {
 
 # Example using Pyron et al. 2013 (split: 6/21)
 pyron <- sim.bd.taxa(n = 27, numbsim = 100000, lambda = 1, mu = 0)
-disparity.multiPhylo(pyron)
+disparity.multiPhylo(pyron, 6)
+
